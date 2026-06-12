@@ -1,0 +1,19 @@
+area
+  [place=county]
+  ["wikidata"="Q188376"]
+  ["name"="Hamilton County"]->.a;
+
+(
+  nwr["amenity"="ice_cream"](area.a);
+  nwr["amenity"="bar"](area.a);
+  nwr["amenity"="cafe"](area.a);
+  nwr["amenity"="cinema"](area.a);
+  nwr["amenity"="fast_food"](area.a);
+  nwr["amenity"="restaurant"](area.a);
+  nwr["tourism"="aquarium"](area.a);
+  nwr["tourism"="museum"](area.a);
+  nwr["amenity"="pub"](area.a);
+  nwr["shop"](area.a);
+);
+
+out geom;
