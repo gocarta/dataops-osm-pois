@@ -1,3 +1,5 @@
+[out:csv(::type,name,::lat,::lon,amenity,'addr:city','addr:housenumber','addr:postcode','addr:state','addr:street',air_conditioning,'check_data','check_date:opening_hours','contact:facebook','contact:instagram','contact:phone',cuisine,opening_hours,outdoor_seating,phone,shop,takeaway,toilets,website;true;',')];
+
 area
   [place=county]
   ["wikidata"="Q188376"]
@@ -5,15 +7,15 @@ area
 
 (
   nwr["amenity"="ice_cream"](area.a);
-  nwr["amenity"="bar"](area.a);
+  nwr["amenity"="bar"](area.a);  
   nwr["amenity"="cafe"](area.a);
   nwr["amenity"="cinema"](area.a);
-  nwr["amenity"="fast_food"](area.a);
-  nwr["amenity"="restaurant"](area.a);
+  nwr["amenity"="fast_food"](area.a);  
+  nwr["amenity"="restaurant"](area.a);  
   nwr["tourism"="aquarium"](area.a);
   nwr["tourism"="museum"](area.a);
-  nwr["amenity"="pub"](area.a);
+  nwr["amenity"="pub"](area.a);  
   nwr["shop"](area.a);
 );
-
-out geom;
+  
+out body center;
