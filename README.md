@@ -2,7 +2,7 @@
 Points of Interest within or near the CARTA Service Area, exported from OpenStreetMap
 
 ## background
-Every second counts when you are trying to catch the bus.  We built this data pipeline in our cloud environment to provide real-time data to both our operations center and the public.
+Wayfinding is an important part of transportation.  CARTA is here to help!
 
 ## frequency
 The pipeline runs once every hour on a cloud server.
